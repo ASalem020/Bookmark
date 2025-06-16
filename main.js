@@ -87,7 +87,7 @@ function displaySites() {
         cartona+=`   <tr>
             <td>${i+1}</td>
             <td> ${sites[i].name}</td>
-            <td><a  href="https:/${sites[i].url}" target="_blank" class="btn btn-success">
+            <td><a  href="https://${sites[i].url}" target="_blank" class="btn btn-success">
                   <i class="fas fa-eye"></i> visit
                 </a>
             </td>
